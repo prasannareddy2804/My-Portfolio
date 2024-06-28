@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/6cd5508980.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hey 👋 <br>I'm <span>Prasanna</span></h1>
+                <p>Web developer</p>
+<!--         
+                <button class="btn">Download Resume</button> -->
+
+            </div>
+        </div>
+
+    </div>
+    <!-- -------------------About-------------- -->
+<div id="about">
+    <div class="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <h1 class="sub-title">About Me</h1>
+                   <p>Hi, I'm Prasanna, a passionate web developer with expertise in crafting responsive and dynamic websites. I specialize in
+                     front-end and back-end development, utilizing technologies like HTML, CSS, JavaScript, React, and Node.js.Beyond web 
+                     development,I've been exploring cybersecurity, data science, and blockchain technologies, with a strong interest in blockchain.
+                      I thrive on turning complex problems into simple, beautiful, and intuitive designs. My goal is to deliver seamless user
+                       experiences through innovative solutions. When I'm not coding, you'll find me exploring the latest tech trends or working 
+                       on side projects. Let's create something amazing together!.
+                    </p>               
+                </div>
+                <div class="abou-col-2">
+                    <h1 class="sub-title">Skills</h1>
+                    <div class="my-skills">
+                        <h2>Frontend Development</h2>
+                    <div class="frontend-list">
+                        <div class="language">
+                            <img src="Images/html5.jpg" alt="">
+                        </div>
+                        <div class="language">
+                            <img src="Images/css3.jpg" alt="">
+                        </div>
+                        <div class="language">
+                            <img src="Images/tailwindcss.svg" alt="">
+                        </div>
+                        <div class="language">
+                            <img src="Images/javascript.jpg" alt="">
+                        </div>
+                        <div class="language">
+                            <img src="Images/reactjs.jpg" alt="">
+                        </div>
+                    </div>
+                    .
+                    <h2>Backend Development</h2>
+                    <div class="backend-list">
+                        <div class="language">
+                            <img src="Images/sql.jpg" alt="">
+                        </div>
+                        <div class="language">
+                            <img src="Images/nodejs.jpg" alt="">
+                        </div>
+                    </div>
+                    <h2>Languages</h2>
+                    <div class="languages-list">
+                        <div class="language">
+                            <img src="Images/java.jpg" alt="">
+                        </div>
+                        <div class="language">
+                            <img src="Images/python.jpg" alt="">
+                        </div>
+                        <div class="language">
+                            <img src="Images/c.jpg" alt="">
+                        </div>
+                        <div class="language">
+                            <img src="Images/solidity.jpg" alt="">
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+ <!-- ------------------Projects-------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/work1.png" >
+                <div class="layer">
+                    <h3>Medi-buddy</h3>
+                    <p>Developed with HTML5,CSS3 <br>This is landing page of medi Medi-buddy website</p>
+                    <a href="https://github.com/prasannareddy2804/Medi-buddy"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/work2.png" >
+                <div class="layer">
+                    <h3>Wild life care and Rescue</h3>
+                    <p>Developed with HTML5,CSS3,JavaScript<br>For wild life protection and details about nearby sanctuaries</p>
+                    <a href="https://github.com/prasannareddy2804/wild-life-care-and-rescue"><i class="fa-solid fa-link"></i></a>
+                </div>
+                
+            </div>
+            <div class="work">
+                <img src="Images/work3.png" >
+                <div class="layer">
+                    <h3>My Portfolio Website</h3>
+                    <p>Developed with HTML5,CSS3<br>Responsive portfolio website showcasing my work</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<!-- -----------------------contact--------------- -->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-envelope"></i>prasannareddy2528@gmail.com</p>
+                
+                <div class="social-media-icons">
+                    <a href="https://github.com/prasannareddy2804/"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://linkedln.com/challaprasanna28/"><i class="fa-brands fa-linkedin"></i></i></a>
+                    <a href="https://hackerrank.com/prasannareddy28/"><i class="fa-brands fa-hackerrank"></i></a>
+                </div>
+                <a href="Images/Resume.png" download class="btn btn2">Download Resume</a>
+            </div>
+            
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+
+ </div>
+<!-- ------------------------footer--------------------------- -->
+ <div id="footer">
+    <footer>
+        copyrights@2024
+    </footer>
+ </div>
+ <script>
+    var sidemenu=document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+ </script>
+ <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxrOf3SEGMvpZt2esIU4kNLgQQylvC1WzO6uDhqfhQoY87yktdx0WdntTOikeBv6asYbg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
