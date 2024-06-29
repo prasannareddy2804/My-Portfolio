@@ -32,7 +32,7 @@ The website is deployed on Vercel. You can view the live site [here](https://my-
 ## Files
 
 ### index.html
-###styles.css
+### styles.css
 
 ## Getting Started
 
